@@ -71,3 +71,5 @@ of this presentation
 ## _Conclusio_
 
 ---
+
+<img src="images/the-end1.jpg" alt="The End" width="1000" height="auto">
