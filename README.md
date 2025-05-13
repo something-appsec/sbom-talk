@@ -76,8 +76,29 @@ of this presentation
 ---
 
 <figure>
+    <img src="images/sbom-publishing-isolated.png" alt="Evolution of SBOM publishing" width="1000" height="auto">
+    <figcaption><a href="https://www.sonatype.com/state-of-the-software-supply-chain/2024/10-year-look">Sonatype: 2024 State of the Supply Chain</a></figcaption>
+</figure>
+
+---
+
+<figure>
     <img src="images/projects-vs-sboms.png" alt="Projects vs SBOMs" width="500" height="auto">
     <figcaption><a href="https://www.sonatype.com/state-of-the-software-supply-chain/2024/10-year-look">Sonatype: 2024 State of the Supply Chain</a></figcaption>
+</figure>
+
+---
+
+<figure>
+    <img src="images/sbom-publishing.png" alt="Evolution of SBOM publishing" width="1000" height="auto">
+    <figcaption><a href="https://www.sonatype.com/state-of-the-software-supply-chain/2024/10-year-look">Sonatype: 2024 State of the Supply Chain</a></figcaption>
+</figure>
+
+---
+
+<figure>
+    <img src="images/maintainers.png" alt="Open Source Projects by number of maintainers" width="500" height="auto">
+    <figcaption><a href="https://anchore.com/blog/open-source-is-bigger-than-you-imagine/">Anchore: Open Source is bigger than you imagine</a></figcaption>
 </figure>
 
 ---
@@ -109,6 +130,13 @@ of this presentation
 <figure>
     <img src="images/common-types-of-vulns.webp" alt="Common Types of Vulnerabilities" width="600" height="auto">
     <figcaption><a href="https://github.blog/news-insights/octoverse/octoverse-2024/">GitHub: Octoverse 2024</a></figcaption>
+</figure>
+
+---
+
+<figure>
+    <img src="images/log4j.png" alt="Downloaded versions of log4j" width="1000" height="auto">
+    <figcaption><a href="https://www.sonatype.com/state-of-the-software-supply-chain/2024/risk">Sonatype: 2024 State of the Supply Chain</a></figcaption>
 </figure>
 
 ---
