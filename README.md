@@ -12,7 +12,6 @@ The rendered presentation is available via the repository's [GitHub Pages websit
 
 ---
 
-
 # Disclaimer
 
 All characters appearing in this work  
@@ -21,18 +20,14 @@ are purely fictitious.
 Any resemblance to real persons, living or dead,  
 is purely coincidental.
 
-
 ---
-
 
 <img src="images/no-cisos-harmed.png" alt="No CISOs were harmed Logo" width="500" height="auto">
 
 No CISOs were harmed in the making  
 of this presentation
 
-
 ---
-
 
 # 1. Akt
 
