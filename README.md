@@ -89,16 +89,27 @@ of this presentation
 <img src="images/nevermind.webp"  alt="Nevermind" width="1000" height="auto">
 
 ---
-<figure>
-    <img src="images/common-types-of-vulns.webp" alt="Common Types of Vulnerabilities" width="600" height="auto">
-    <figcaption><a href="https://github.blog/news-insights/octoverse/octoverse-2024/">GitHub: Octoverse 2024</a></figcaption>
-</figure>
+
+# Supply Chain Attack Vectors
+
+- Malicious Code Injection
+- Typosquatting
+- Repo-Jacking
+- Dependency Confusion
+- Protestware
 
 ---
 
 # 3. Akt
 
 ## _Conclusio_
+
+---
+
+<figure>
+    <img src="images/common-types-of-vulns.webp" alt="Common Types of Vulnerabilities" width="600" height="auto">
+    <figcaption><a href="https://github.blog/news-insights/octoverse/octoverse-2024/">GitHub: Octoverse 2024</a></figcaption>
+</figure>
 
 ---
 
