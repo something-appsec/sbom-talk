@@ -31,15 +31,28 @@ A: Bitte was?
 C: S-B-O-M-S
 
 A: SBOMs??
+A: SBOMs??
 
 C: ja ja, dann halt so: SBOMs werden uns retten
 
-A: waren sie wieder auf einem Compliance Kongress? *-> compliance meme*
+A: waren sie wieder auf einem Compliance Kongress? **-> compliance meme**
 
 C: Die Anzahl an supply chain attacks wie log4j hat in den letzten Jahren schon stark zugenommen und wir müssen uns dagegen schützen. Hier gibt es mit SBOMs wirklich eine tolle Lösung!
 
 A: SBOMs die Lösung von supply chain attacks? Wissen sie was eine SBOMs ist? Ich glaube wir müssen auch noch kurz das Thema Supply Chain Angriff näher beleuchten! *-> SBOM meme*
+A: SBOMs die Lösung von supply chain attacks? Wissen sie was eine SBOMs ist? Ich glaube wir müssen auch noch kurz das Thema Supply Chain Angriff näher beleuchten! *-> SBOM meme*
 
+C: Ja klar, eine SBOM ist eine Zutatenliste, die mir sagt was in in Lebensmitteln enthalten ist. Das sagt mir dann dass 30 Zeilen HTML und 50 Zeilen Java enthält.
+
+A: Gar nicht soooo schlecht. Nur ist das sehr realitätsfern. In der modernen Softwareentwicklung schreibt die Entwickler:in nicht jede Zeile Code selbst, sondern verwendet vorgefertigte Bibliotheken. Nehmen wir die Datumsauswahl Funktion in einer x-beliebigen Anwendung -> x edge cases und komplexität -> somit library die wiederverwendet wird. Je nach Report (Github, Blackduck) kursieren Zahlen zwischen 70 - 90% third party vs. first party code. Das unterstreicht schon den Bedarf einer Inventarisierung der genutzten Komponenten.
+
+C: Wofür geben wir unmengen an Geld für die Entwicklungsteams aus????
+
+A: Wollen sie etwa geld ausgeben damit jedes Team sein Datumsauswahltool selbst schreibt oder sollen sie lieber business value generieren? :D
+
+C: Zurück zu den SBOMs bitte
+
+A: Laut der technischen Richtlinie des BSI: Eine “Software Bill of Materials” (SBOM) ist eine maschinenlesbare Datei, die Informationen über Lieferkettenbeziehungen und Details zu den Komponenten enthält, die in einem Softwareprodukt verwendet werden. *-> Spdx Slide im Background*
 C: Ja klar, eine SBOM ist eine Zutatenliste, die mir sagt was in in Lebensmitteln enthalten ist. Das sagt mir dann dass 30 Zeilen HTML und 50 Zeilen Java enthält.
 
 A: Gar nicht soooo schlecht. Nur ist das sehr realitätsfern. In der modernen Softwareentwicklung schreibt die Entwickler:in nicht jede Zeile Code selbst, sondern verwendet vorgefertigte Bibliotheken. Nehmen wir die Datumsauswahl Funktion in einer x-beliebigen Anwendung -> x edge cases und komplexität -> somit library die wiederverwendet wird. Je nach Report (Github, Blackduck) kursieren Zahlen zwischen 70 - 90% third party vs. first party code. Das unterstreicht schon den Bedarf einer Inventarisierung der genutzten Komponenten.
