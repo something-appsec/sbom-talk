@@ -159,7 +159,7 @@ A: Mal abgesehen von diesen Herausforderungen ist die Erstellung von SBOMs nicht
 
 C: Warum denn das? Code ist ja code!
 
-A: Die Sprachen und wie sie funktionieren unterscheiden sich recht stark. In der modernen Web-Welt erhält man automatisch die direkten Abhängigkeiten einer Application, bei den nächsten Ebenen, den transitiven Abhängigkeiten ist es schon schwieriger.
+A: Die Sprachen und wie sie funktionieren unterscheiden sich recht stark. In der modernen Web-Welt erhält man automatisch die direkten Abhängigkeiten einer Applikation, bei den nächsten Ebenen, den transitiven Abhängigkeiten ist es schon schwieriger.
 
 C: Wir haben aber nicht nur web-applikationen bei uns...
 
@@ -181,21 +181,31 @@ C: Stellt das ein echtes Problem dar?
 
 A: So ist es sehr schwer herauszufinden ob eine gelieferte SBOM korrekt und vollständig ist.
 
-C: Tools gibt es ja bereits, ich habe bereits den Prozess initiiert um ein kostenloses Tool für uns auszuwählen um das alles zu beschleunigen.
+C: Das sollte man ja technisch lösen können, es gibt ha bereits verschiedenste Tools auf dem Markt! Ich habe bereits den Prozess initiiert um ein kostenloses Tool für uns auszuwählen um das alles zu beschleunigen.
 
-A: Wie vorhin bereits angedeutet, einige unserer Teams erstellen SBOMs als Teil der automatisierten Build Pipelines,
+A: Wie vorhin bereits angedeutet, einige unserer Teams erstellen SBOMs als Teil der automatisierten Build Pipelines, die direkten Abhängigkeiten sind da auch enthalten, bei den transitiven Abhängigkeiten kann es dann schnell komplex werden und zwei Tools zur automatischen Erstellung von SBOMs würden höchstwahrscheinlich verschiedene Ergebnisse liefern.
 
-Einige unserer Teams haben bereits SBOMs, die aus den automatisierten Pipelines herauspurzeln. Bei den anderen Teams, wo es um Kompilate geht hängt die Qualität der Tools von den Frameworks und Programmiersprachen ab und worauf sich ein Tool für die automatische SBOM Generierung fokussiert. Die heterogene Landschaft in diesem Kontext bringt weitere Herausforderungen. Man nehme eine Applikation und lässt 2 Tools zur Erstellung von SBOMs drüber laufen: die Ergebnisse werden unterschiedlich sein, und womöglich keine komplett falsch, sondern eher unvollständig. Letztendlich haben wir irgendwann einen Haufen SBOMs, in verschiedenen Tiefen mit denen man wenig anfangen kann.
+C: Na da muss dann eins falsch sein!
+
+A: Womöglich ist keine SBOM falsch, sondern beide unvollständig.
 
 C: Dann sollten wir diese ganzen SBOMs ja einfach harmonisieren, das geht bestimmt mit irgendeiner KI.
   
-A: *schappatmung* Ich will ja keine Spielverderberin sein, aber da kommt schon das nächste Problem: die Übermittlung von SBOMs ist auch nicht standardisiert. Manche Hersteller stellen diese auf ihrer Website zum Download zur Verfügung, andere als Metadaten des Produkts, andere wieder stellen sie via Email auf Anfrage zur Verfügung.
+A: *schappatmung* Ich will ja keine Spielverderberin sein, aber da kommt schon das nächste Problem...
+
+C: Was kann denn jetzt noch fehlen?
+
+A: die Übermittlung von SBOMs ist auch nicht standardisiert. Manche Hersteller stellen diese auf ihrer Website zum Download zur Verfügung, andere als Metadaten des Produkts, andere wieder stellen sie via Email auf Anfrage zur Verfügung.
 
 C: Können wir nicht allen einfach einen link zu unserem Sharepoint geben?  
 
-A: *verdrehte augen* Aktuell kommen die SBOMs auf verschiedene Wege zu uns, den größten Teil müssen wir aber bei den Suppliern anfragen und je nach Unternehmensgröße ist die Reaktion darauf. Abgesehen davon müsste man sich auch überlegen wie man die Integrität dieser Dokumente sicherstellt. 
+A: *verdrehte augen* Aktuell kommen die meisten SBOMs auf Anfrage bei uns an. Die Integrität der Dokumente wird aktuell nicht berücksichtigt. 
 
-C: Wenn wir die SBOMs von allen Applikationen, in jeder Version bei uns dann haben...ist das ein vollständiges Inventar in dem ich nach log4j und anderen Supply Chain Attacken suchen kann.
+C: Da gibt es ja bewährte Methoden, wie z.B. Signaturen oder Checksums die man auch an anderer Stelle benutzt.
+
+A: Ja, hier muss man aktuell noch alles händisch signieren und auch so anfordern, da es nicht standardisiert ist.
+
+C: Aber wenn wir die SBOMs von allen Applikationen, in jeder Version bei uns dann haben...ist das ein vollständiges Inventar in dem ich nach log4j und anderen Supply Chain Attacken suchen kann.
 
 A: Vergessen Sie nicht, dass die SBOMs nur maschienenlesbar sind - oder wollen SIE noch einmal einen blick reinwerfen? Bedeutet wir brauchen ein Tool, das die SBOMs verwalten kann um diese durchsuchbar zu machen und in einem zweitern Schritt Schwachstellen anzeigen kann.
 
@@ -205,6 +215,8 @@ A: Hier sollten wir kurz einige Missverständnisse rund um Supply Chain Angriffe
 Fangen wir mit den Supply Chain Angriffen an: Ein Supply Chain Angriff ist ein Cyberangriff, bei dem ein Angreifer Schwachstellen in der Lieferkette von Software und/oder Dienstleistungen ausnutzt, um indirekt das eigentliche Zielsystem zu kompromittieren. Das Ziel davon kann somit eine opensource-Bibliothek, ein CI/CD tool oder eine Drittanbieter-Software sein. Z.B. Beim SolarWinds Angriff in 2020 wurde Schadcode in ein Tool eingeschleust, dass dan bei Kunden weltweit installiert wurde, da die Software legitim ist. Es wir auch regelmäßig versucht z.B. in python pakete schadcode einzuführen. Log4j war eine kritische 0-day Schwachstelle, keine supply chain attacke.
 
 **angriff auf die supply chain um das eigentliche Opfer anzugreifen**
+
+**SBOMs sind per Definition auch flach abgebildet...bedeutet die Teams brauchen ein tiefes Verständnis der verwendeten Bibliotheken.**
 
 C: Verstanden, aber ich möchte dann trotzdem alle Schwachstellen in meinen Produkten kennen.
 
