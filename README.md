@@ -140,6 +140,20 @@ in the Making of this Presentation_
 ---
 
 <figure>
+    <img src="images/sbom-sharing.png" alt="SBOM Sharing" width="600" height="auto">
+    <figcaption><a href="https://www.cisa.gov/sites/default/files/2024-05/SBOM%20Sharing%20Primer.pdf">CISA: SBOM Sharing Primer</a></figcaption>
+</figure>
+
+---
+
+<figure>
+    <img src="images/oss-percentage.png" alt="70-90% of all Software is Open Source" width="1000" height="auto">
+    <figcaption><a href="https://www.intel.com/content/www/us/en/developer/articles/guide/the-careful-consumption-of-open-source-software.html">Intel: The Careful Consumption of Open Source Software</a></figcaption>
+</figure>
+
+---
+
+<figure>
     <img src="images/package-maintainers.png" alt="Open Source Projects by number of maintainers" width="1000" height="auto">
     <figcaption><a href="https://www.intel.com/content/www/us/en/developer/articles/guide/the-careful-consumption-of-open-source-software.html">Intel: The Careful Consumption of Open Source Software</a></figcaption>
 </figure>
@@ -183,10 +197,14 @@ in the Making of this Presentation_
 
 ---
 
-<figure>
-    <img src="images/common-types-of-vulns.webp" alt="Common Types of Vulnerabilities" width="600" height="auto">
-    <figcaption><a href="https://github.blog/news-insights/octoverse/octoverse-2024/">GitHub: Octoverse 2024</a></figcaption>
-</figure>
+| **Regulation**           | **Industry**                     |
+|--------------------------|----------------------------------|
+| NIS-2 Directive          | Critical Infrastructure          |
+| EU Cyber Resilience Act  | "Products with digital Elements" |
+| DORA                     | Financial Sector                 |
+| US Executive Order 14028 | US Government Software Suppliers |
+| FDA                      | Medical Devices                  |
+| UNECE R 155 WP.29        | Automotive (self-driving cars)   |
 
 ---
 
