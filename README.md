@@ -1,4 +1,4 @@
-[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/dim-0/sbom-talk/badge)](https://scorecard.dev/viewer/?uri=github.com/dim-0/sbom-talk) <!-- .element: class="hidden" data-fragment-index="2" -->
+[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/lukas-mika/sbom-talk/badge)](https://scorecard.dev/viewer/?uri=github.com/lukas-mika/sbom-talk) <!-- .element: class="hidden" data-fragment-index="2" -->
 
 # SBOMs
 ## Eine Tragikomödie in 3 Akten
