@@ -1,4 +1,4 @@
-[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/lukas-mika/sbom-talk/badge)](https://scorecard.dev/viewer/?uri=github.com/lukas-mika/sbom-talk) <!-- .element: class="hidden" data-fragment-index="2" -->
+[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/something-appsec/sbom-talk/badge)](https://scorecard.dev/viewer/?uri=github.com/something-appsec/sbom-talk) <!-- .element: class="hidden" data-fragment-index="2" -->
 
 # SBOMs
 ## Eine Tragikomödie in 3 Akten
@@ -10,7 +10,7 @@ This slide deck is based on [reveal.js](https://revealjs.com/).
 
 This file provides the Payload for the presentation and might therefore contain code, which is not natively supported by GitHub's MarkDown implementation.
 
-The rendered presentation is available via the repository's [GitHub Pages website](https://lukas-mika.github.io/sbom-talk/).
+The rendered presentation is available via the repository's [GitHub Pages website](https://something-appsec.github.io/sbom-talk/).
 
 ---
 
