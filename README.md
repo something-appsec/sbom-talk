@@ -5,6 +5,12 @@
 
 _by *Jasmin Mair* and *Lukas Mika*_
 
+<div style="font-size: 0.6em; margin-top: 2em">
+Presentation Slides and Script available at<br/>
+<a href="https://github.com/something-appsec/sbom-talk">https://github.com/something-appsec/sbom-talk</a>
+</div>
+<img src="images/qr-code.gif" width="100" height="auto">
+
 Note:
 This slide deck is based on [reveal.js](https://revealjs.com/).
 
