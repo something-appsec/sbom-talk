@@ -5,6 +5,12 @@
 
 _by *Jasmin Mair* and *Lukas Mika*_
 
+<div style="font-size: 0.6em; margin-top: 2em">
+Presentation Slides and Script available at<br/>
+<a href="https://github.com/something-appsec/sbom-talk">https://github.com/something-appsec/sbom-talk</a>
+</div>
+<img src="images/qr-code.gif" width="100" height="auto">
+
 Note:
 This slide deck is based on [reveal.js](https://revealjs.com/).
 
@@ -225,7 +231,10 @@ Hier fehlt eine Slide zum Thema "Konsolidierung"
 
 ---
 
-Slide zu ENISA?
+<figure>
+    <img src="images/enisa.png" alt="ENISA Website" width="1000" height="auto">
+    <figcaption><a href="https://euvd.enisa.europa.eu/">https://euvd.enisa.europa.eu/</a></figcaption>
+</figure>
 
 ---
 
