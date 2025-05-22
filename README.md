@@ -1,4 +1,4 @@
-[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/something-appsec/sbom-talk/badge)](https://scorecard.dev/viewer/?uri=github.com/something-appsec/sbom-talk) <!-- .element: class="hidden" data-fragment-index="2" -->
+[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/something-appsec/sbom-talk/badge)](https://scorecard.dev/viewer/?uri=github.com/something-appsec/sbom-talk) <!-- .element: class="hidden" -->
 
 # SBOMs
 ## Eine Tragikomödie in 3 Akten
@@ -39,7 +39,7 @@ in the Making of this Presentation
 
 ---
 
-# 1. Akt
+# 1st Act
 
 ## _Introductio_
 
@@ -111,18 +111,6 @@ in the Making of this Presentation
 - Timestamp
 - Licenses
 
-<!--
-- Component (incl. Identifiers)
-- Used Version
-- Creator
-- Timestamp
-- Filename
-- Dependencies on others
-- License
-- Origin
-- Relations
--->
-
 ---
 
 <img src="images/sbom-example.png" alt="SPDX JSON Example" width="1000" height="auto">
@@ -137,7 +125,7 @@ in the Making of this Presentation
 
 ---
 
-# 2. Akt
+# 2nd Act
 
 ## _Disputatio_
 
@@ -263,7 +251,7 @@ in the Making of this Presentation
 
 ---
 
-# 3. Akt
+# 3rd Act
 
 ## _Conclusio_
 
