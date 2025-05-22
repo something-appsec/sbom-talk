@@ -136,8 +136,10 @@ A: In moderner Software-Entwicklung glücklicherweise nicht, weil sich die Erste
 
 C: Ach, das ist ja praktisch!
 
+- Slide: SBOM summary
 
-## Akt 2 [15min] -> slide, sip of water, weiter
+## Akt 2 [15min] 
+
 
 C: Also haben wir mit diesen ganzen SBOMs die Zutatenliste von jeder Software die wir entwickeln und einsetzen?
 
@@ -259,6 +261,8 @@ A: [seufzt]
 
 C: Nun ja, dann nehmen wir erstmal das, was wir bekommen können. Das ist dann mein Inventar in dem ich nach log4j und anderen Supply Chain Attacken suchen kann.
 
+- Slide: SBOMs everywhere
+
 A: Erstmal haben Sie nur eine Menge einzelner Dokumente, die händisch durchsucht werden müssten. Und vergessen Sie nicht, dass die SBOMs in erster Linie maschinenlesbar sind - oder wollen SIE noch einmal einen Blick reinwerfen? [grinst]
 
 C: Nein, nein, auf keinen Fall!
@@ -361,6 +365,7 @@ C: ...weil es auch hier an einheitlichen Ansätzen fehlt?
 
 A: Ja, sowohl bei SBOMs als auch VEX-Dokumente müssen wir darauf vertrauen, dass die Verfasser:innen ordentlich arbeiten und wissen was sie tun...
 
+- Slide: SBOM challenges
 
 ## Akt 3
 
