@@ -1,6 +1,6 @@
 [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/something-appsec/sbom-talk/badge)](https://scorecard.dev/viewer/?uri=github.com/something-appsec/sbom-talk) <!-- .element: class="hidden" -->
 
-> [!Note] <!-- .element: class="hidden" -->
+> [!NOTE] <!-- .element: class="hidden" -->
 > This is the [reveal.js](https://revealjs.com/) Slide Deck for the Talk **"SBOMs - Eine Tragikomödie in 3 Akten"** by Jasmin Mair and Lukas Mika.
 >
 > The rendered presentation is available **[here](https://something-appsec.github.io/sbom-talk/)**.
