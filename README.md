@@ -5,7 +5,7 @@
 
 <p>This file provides the Payload for the presentation and might therefore contain code, which is not natively rendered by GitHub's MarkDown implementation.</p>
 
-<p>The rendered presentation is available <a href="https://something-appsec.github.io/sbom-talk/">here</a></p>.
+<p>The rendered presentation is available <a href="https://something-appsec.github.io/sbom-talk/">here</a>.</p>
 </div>
 
 # SBOMs
