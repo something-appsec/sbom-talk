@@ -1,11 +1,11 @@
 [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/something-appsec/sbom-talk/badge)](https://scorecard.dev/viewer/?uri=github.com/something-appsec/sbom-talk) <!-- .element: class="hidden" -->
 
 <div class="hidden">
-This is the [reveal](https://revealjs.com) Slide Deck for the Talk "SBOMs - Eine Tragikomödie in 3 Akten" by Jasmin Mair and Lukas Mika.
+<p>This is the <a href="https://revealjs.com">reveal.js</a> Slide Deck for the Talk "SBOMs - Eine Tragikomödie in 3 Akten" by Jasmin Mair and Lukas Mika.</p>
 
-This file provides the Payload for the presentation and might therefore contain code, which is not natively rendered by GitHub's MarkDown implementation.
+<p>This file provides the Payload for the presentation and might therefore contain code, which is not natively rendered by GitHub's MarkDown implementation.</p>
 
-The rendered presentation is available via the repository's [GitHub Pages website](https://something-appsec.github.io/sbom-talk/).
+<p>The rendered presentation is available via the repository's [GitHub Pages website](https://something-appsec.github.io/sbom-talk/)</p>.
 </div>
 
 # SBOMs
