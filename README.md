@@ -1,7 +1,7 @@
 [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/something-appsec/sbom-talk/badge)](https://scorecard.dev/viewer/?uri=github.com/something-appsec/sbom-talk) <!-- .element: class="hidden" -->
 
 <div class="hidden">
-<p>This is the <a href="https://revealjs.com">reveal.js</a> Slide Deck for the Talk "SBOMs - Eine Tragikomödie in 3 Akten" by Jasmin Mair and Lukas Mika.</p>
+<p>This is the <a href="https://revealjs.com">reveal.js</a> Slide Deck for the Talk<br/><b>"SBOMs - Eine Tragikomödie in 3 Akten"</b><br/> by Jasmin Mair and Lukas Mika.</p>
 
 <p>This file provides the Payload for the presentation and might therefore contain code, which is not natively rendered by GitHub's MarkDown implementation.</p>
 
