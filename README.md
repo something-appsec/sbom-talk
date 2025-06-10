@@ -806,6 +806,14 @@ SBOM available <!-- .element class="smaller-text" -->[here](https://github.com/s
 
 ---
 
+<img src="images/nevermind.webp"  alt="Nevermind" width="1000" height="auto">
+
+Dialog:
+
+Somebody will definitely ask about AI...
+
+---
+
 <img src="images/cc.svg" style="width: 5em; height: auto; margin-left: .5em"><img src="images/by.svg" style="width: 5em; height: auto; margin-left: .5em"><img src="images/sa.svg" style="width: 5em; height: auto; margin-left: .5em;"><br/>
 <div class="smaller-text"><a href="https://github.com/something-appsec/sbom-talk">SBOMs - A Tragicomedy in Three Acts</a><br/>© 2025 by Jasmin Mair, Lukas Mika<br/>is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></div>
 
