@@ -38,7 +38,7 @@ No CISOs were harmed <br/>
 in the making of this presentation
 </div>
 
-Dialog:
+<ins>_Dialogue:_</ins>
 
 A [on the phone]: ...I’m telling you, if one more person comes at me with SBOMs, I’m quitting. Oh, I’ll call you back later, my manager is coming right now.
 
@@ -48,7 +48,7 @@ A [on the phone]: ...I’m telling you, if one more person comes at me with SBOM
 
 ## _Introductio_
 
-Dialog:
+<ins>_Dialogue:_</ins>
 
 C [entering the room]: Wonderful good morning, Ms. Mair! How are WE doing today?
 
@@ -60,13 +60,14 @@ A [sighs]: What can I do for you?
 
 ---
 
-<figure>
+<p>
+  <figure>
     <img src="images/supply-chain-attacks.png" width="800" height="auto">
     <figcaption><a href="https://www.sonatype.com/hubfs/1-2023%20New%20Site%20Assets/SSCR/8th-Annual-SSCR-digital-0206%20update.pdf">Sonatype: 2022 State of the Supply Chain</a></figcaption>
-</figure>
-<br/>
+  </figure>
+</p>
 
-Dialog:
+<ins>_Dialogue:_</ins>
 
 C: Have you heard about all the supply chain attacks? They're happening everywhere! And we need to protect ourselves against them _ASAP_!
 
@@ -78,7 +79,7 @@ C: ...but I already found the perfect solution for it: S-B-O-M-S
 
 <img src="images/sboms-rainbow.jpg" alt="SBOM Meme with Spongebob holding a rainbow" width="800" height="auto">
 
-Dialog:
+<ins>_Dialogue:_</ins>
 
 A: Excuse me?
 
@@ -98,7 +99,7 @@ A: Did you attend a compliance conference once again?
 
 <img src="images/distracted-by-sbom.jpg" alt="Distracted by SBOM" width="1000" height="auto"> 
 
-Dialog:
+<ins>_Dialogue:_</ins>
 
 C: How do you... [collects himself] The number of supply chain attacks like log4j has been on a massive rise in the recent years and we need to protect ourselves against them immediately. There is a really great solution here with SBOMs!
 
@@ -106,7 +107,7 @@ C: How do you... [collects himself] The number of supply chain attacks like log4
 
 <img src="images/sbom-big.jpg" alt="SBOM Big!" width="700" height="auto">
 
-Dialog:
+<ins>_Dialogue:_</ins>
 
 A: Erm... SBOMs as solution for supply chain attacks? Do you actually know, what an SBOM is?
 
@@ -114,13 +115,14 @@ C: Absolutely yes! An SBOM is like a list of ingredients, that tells me what's i
 
 ---
 
-<figure>
+<p>
+  <figure>
     <img src="images/dependency-tree.png" alt="Example Dependency Tree" width="600" height="auto">
     <figcaption><a href="https://blog.droidchef.dev/mastering-the-gradle-dependency-tree/">Ishan Khanna: Mastering the Gradle Dependency Tree</a></figcaption>
-</figure>
-<br/>
+  </figure>
+</p>
 
-Dialog:
+<ins>_Dialogue:_</ins>
 
 A: Not _too_ bad. But let's start a little smaller: In modern software development, developers don't write every line of code themselves, they rely on ready-made parts. Let's take the date-picker function in any application for example: on the one hand, this is quite a complex feature, on the other hand, it is needed again and again. It is therefore more efficient to download such code from the Internet in the form of libraries or frameworks instead of reinventing the wheel every time.
 
@@ -132,13 +134,14 @@ C: Yeah, sure, business value, definitely...
 
 ---
 
-<figure>
+<p>
+  <figure>
     <img src="images/oss-percentage.png" alt="70-90% of all Software is Open Source" width="1000" height="auto">
     <figcaption><a href="https://www.intel.com/content/www/us/en/developer/articles/guide/the-careful-consumption-of-open-source-software.html">Intel: The Careful Consumption of Open Source Software</a></figcaption>
-</figure>
-<br/>
+  </figure>
+</p>
 
-Dialog:
+<ins>_Dialogue:_</ins>
 
 A: That would be near to impossible without such external components nowadays. Different studies found that 70-90% of any given software code base is made up of open source components.
 
@@ -150,7 +153,7 @@ A: Well, it's not only about date-pickers, but very different and basic function
 
 <img src="images/squid-game-log4j.jpg" alt="Next Task: Find log4j in your Org" width="1000" height="auto">
 
-Dialog:
+<ins>_Dialogue:_</ins>
 
 C: Yeah, log4j, right! Nobody knew where it was all embedded!
 
@@ -160,19 +163,20 @@ A: Exactly. And these components in turn have their own dependencies on which th
 
 <img src="images/yo-dawg.jpg" alt="Dependencies over Dependencies" width="1000" height="auto">
 
-Dialog:
+<ins>_Dialogue:_</ins>
 
 C: ...and these in turn have other components? Which on their part rely on other dependencies? Which... Phew!
 
 ---
 
-<figure>
+<p>
+  <figure>
     <img src="images/transitive-dependencies.png" alt="Transitive Dependencies" width="800" height="auto">
     <figcaption><a href="https://blog.phylum.io/hidden-dependencies-lurking-in-the-software-dependency-network/">Phylum: Hidden Dependencies lurking in the Software Dependency Network</a></figcaption>
-</figure>
-<br/>
+  </figure>
+</p>
 
-Dialog:
+<ins>_Dialogue:_</ins>
 
 A: Exactly! So even a few _direct_ dependencies can load a lot of further dependencies.
 
@@ -182,7 +186,7 @@ C: But this gets more and more complex! How do you keep track of it all?
 
 <img src="images/dependency-graph.png" alt="Dependency Graph" width="500" height="auto">
 
-Dialog:
+<ins>_Dialogue:_</ins>
 
 A [grins] ...and that's where SBOMs come into play!
 
@@ -201,7 +205,7 @@ C: Yeah right, the list of ingredients! I knew it, I just wanted to test you! [w
 - Timestamp
 - Licenses
 
-Dialog:
+<ins>_Dialogue:_</ins>
 
 A: Alright. SBOMs are therefore standardized structures, in which the most important data points for all these dependencies are listed. What kind of component is it, where does it come from, what version does it have, what license is associated... Would you like to take a look at an SBOM like this?
 
@@ -211,7 +215,7 @@ C: Oh, yes, absolutely! I'd love to!
 
 <img src="images/sbom-example.png" alt="SPDX JSON Example" width="1000" height="auto">
 
-Dialog:
+<ins>_Dialogue:_</ins>
 
 C: Whoa, nobody can read that!
 
@@ -259,7 +263,7 @@ C: Oh, that's practical!
 
 ## _Disputatio_
 
-Dialog:
+<ins>_Dialogue:_</ins>
 
 C: So, with all these SBOMs, we have the ingredient list of every software we develop and operate?
 
@@ -269,13 +273,14 @@ C: ...then we'll be finished soon! Great!
 
 ---
 
-<figure>
+<p>
+  <figure>
     <img src="images/sbom-publishing-isolated.png" alt="Evolution of SBOM publishing" width="1000" height="auto">
     <figcaption><a href="https://www.sonatype.com/state-of-the-software-supply-chain/2024/10-year-look">Sonatype: 2024 State of the Supply Chain</a></figcaption>
-</figure>
-<br/>
+  </figure>
+</p>
 
-Dialog:
+<ins>_Dialogue:_</ins>
 
 A: Not so fast! In order for us to finalize the SBOMs for our products, we need the SBOMs for all embedded components, which we source from our suppliers.
 
@@ -283,25 +288,27 @@ C: Well Ms. Mair, that's so easy; we simply write it into the contracts and forc
 
 ---
 
-<figure>
+<p>
+  <figure>
     <img src="images/projects-vs-sboms.png" alt="Projects vs SBOMs" width="500" height="auto">
     <figcaption><a href="https://www.sonatype.com/state-of-the-software-supply-chain/2024/10-year-look">Sonatype: 2024 State of the Supply Chain</a></figcaption>
-</figure>
-<br/>
+  </figure>
+</p>
 
-Dialog:
+<ins>_Dialogue:_</ins>
 
 A: Well... it is true that more and more SBOMs are being created, but we're nowhere near to where we should be. In 2024, there were 7 million published components on npm, of which just 61k had SBOMs available.
 
 ---
 
-<figure>
+<p>
+  <figure>
     <img src="images/sbom-publishing.png" alt="Evolution of SBOM publishing" width="1000" height="auto">
     <figcaption><a href="https://www.sonatype.com/state-of-the-software-supply-chain/2024/10-year-look">Sonatype: 2024 State of the Supply Chain</a></figcaption>
-</figure>
-<br/>
+  </figure>
+</p>
 
-Dialog:
+<ins>_Dialogue:_</ins>
 
 C: Only so few?
 
@@ -325,13 +332,14 @@ C: Come on, it can't be _that_ much...
 
 ---
 
-<figure>
+<p>
+  <figure>
     <img src="images/oss-proliferation.png" alt="Open Source Software Proliferation" width="1000" height="auto">
     <figcaption><a href="https://www.blackduck.com/content/dam/black-duck/en-us/reports/rep-ossra.pdf">Black Duck: 2025 Open Source Security and Risk Analysis Report</a></figcaption>
-</figure>
-<br/>
+  </figure>
+</p>
 
-Dialog:
+<ins>_Dialogue:_</ins>
 
 A: Well, some studies estimate that open source is used in 97% of modern applications.
 
@@ -343,13 +351,14 @@ C: Then... we should go to the base and somehow get the open source projects to 
 
 ---
 
-<figure>
+<p>
+  <figure>
     <img src="images/package-maintainers.png" alt="Open Source Projects by number of maintainers" width="1000" height="auto">
     <figcaption><a href="https://www.intel.com/content/www/us/en/developer/articles/guide/the-careful-consumption-of-open-source-software.html">Intel: The Careful Consumption of Open Source Software</a></figcaption>
-</figure>
-<br/>
+  </figure>
+</p>
 
-Dialog:
+<ins>_Dialogue:_</ins>
 
 A: Market share? Market share does not really play a role in the open source context. In addition, most open source projects are maintained by individuals or a small number of people. They have little time, little support and are under a lot of pressure and don't really get to do it.
 
@@ -357,7 +366,7 @@ A: Market share? Market share does not really play a role in the open source con
 
 # Sponsor more<br/>open source<br/>projects!
 
-Dialog:
+<ins>_Dialogue:_</ins>
 
 A: Here we, as company, could provide both financial and technical support!
 
@@ -367,7 +376,7 @@ C: Whoooow, that wasn't budgeted in for this fiscal year and the financial plann
 
 <img src="images/sboms-castles.jpg" alt="Dramatic SBOM paths" width="600" height="auto">
 
-Dialog:
+<ins>_Dialogue:_</ins>
 
 A: Apart from these challenges, the complexity of creating an SBOM depends heavily on the programming language and the frameworks used.
 
@@ -387,7 +396,7 @@ A: Unfortunately, it is. The creation of SBOMs is not standardized.
 
 <img src="images/sbom-devs.jpg" alt="SBOMs holding back Developers" width="450" height="auto">
 
-Dialog:
+<ins>_Dialogue:_</ins>
 
 C: Indeed there _are_ guidelines and standards! Even from the German BSI!
 
@@ -415,7 +424,7 @@ C: Then we should simply harmonize all these SBOMs... using AI!
 
 <img src="images/nevermind.webp"  alt="Nevermind" width="1000" height="auto">
 
-Dialog:
+<ins>_Dialogue:_</ins>
 
 A: [Gasping] I don't want to be a spoilsport, but there comes the next challenge...
 
@@ -423,13 +432,14 @@ C: What else could be missing now?
 
 ---
 
-<figure>
+<p>
+  <figure>
     <img src="images/sbom-sharing.png" alt="SBOM Sharing" width="600" height="auto">
     <figcaption><a href="https://www.cisa.gov/sites/default/files/2024-05/SBOM%20Sharing%20Primer.pdf">CISA: SBOM Sharing Primer</a></figcaption>
-</figure>
-<br/>
+  </figure>
+</p>
 
-Dialog:
+<ins>_Dialogue:_</ins>
 
 A: The transmission of SBOMs isn't standardized, either. Some manufacturers make them available for download on their website, others as metadata of the product, and others in turn provide them via e-mail on request.
 
@@ -443,7 +453,7 @@ C: There are already proven methods using electronic signatures for this. Are yo
 
 <img src="images/trustworthy.jpg" alt="Trustworthy Racoon" width="1000" height="auto">
 
-Dialog:
+<ins>_Dialogue:_</ins>
 
 A: Fine, so then we get a _signed_ SBOM, but how do we know it's a legitimate signature and not by someone trying to frame us?
 
@@ -457,7 +467,7 @@ C: Well, let's take what we can get for now. Then that's my inventory that I can
 
 <img src="images/sbom-everywhere.jpg" alt="SBOMs everywhere" width="1000" height="auto">
 
-Dialog:
+<ins>_Dialogue:_</ins>
 
 A: Well, first of all, we only have a lot of individual documents that would have to be searched manually. And don't forget that SBOMs are primarily machine-readable - or would YOU like to take another look? [grins]
 
@@ -483,7 +493,7 @@ C: What misconceptions?
 - Malicious Maintainer (e.g. "Protestware")
 - Dependency Confusion/Hallucination
 
-Dialog:
+<ins>_Dialogue:_</ins>
 
 A: Let's start with supply chain attacks: In a supply chain attack, a victim is attacked through its supply chain instead of directly penetrating the victim's systems. 
 
@@ -507,7 +517,7 @@ A: But where do we get this SBOM from?
 
 <img src="images/sbom-defense.jpg" alt="SBOM vs Supply Chain Attacks" width="1000" height="auto">
 
-Dialog:
+<ins>_Dialogue:_</ins>
 
 C: Well...from the supplier!
 
@@ -523,7 +533,7 @@ C: ...and then how about log4j?
 
 <img src="images/log4j-vendors.jpg" alt="Vendors need to patch, too" width="400" height="auto">
 
-Dialog:
+<ins>_Dialogue:_</ins>
 
 A: Yes, SBOMs could possibly offer value in such scenarios, since this was a dependency with a critical vulnerability.
 
@@ -539,13 +549,14 @@ C: And how about the vulnerabilities? Where do we get these from?
 
 ---
 
-<figure>
+<p>
+  <figure>
     <img src="images/log4j-cve.png" alt="CVE-2021-44228" width="800" height="auto">
     <figcaption><a href="https://www.cve.org/CVERecord?id=CVE-2021-44228">CVE-2021-44228 on https://cve.mitre.org/</a></figcaption>
-</figure>
-<br/>
+  </figure>
+</p>
 
-Dialog:
+<ins>_Dialogue:_</ins>
 
 A: By matching these identifiers against public vulnerability databases.
 
@@ -557,13 +568,14 @@ C: Lucky us... once again we can rely on the USA when it comes to security!
 
 ---
 
-<figure>
+<p>
+  <figure>
     <img src="images/mitre-funding.png" alt="News Article: In last-minute reversal, US agency extends support for cyber vulnerability database" width="1000" height="auto">
     <figcaption><a href="https://www.reuters.com/world/us/us-agency-extends-support-last-minute-cyber-vulnerability-database-2025-04-16/">Reuters: In last-minute reversal, US agency extends support for cyber vulnerability database</a></figcaption>
-</figure>
-<br/>
+  </figure>
+</p>
 
-Dialog:
+<ins>_Dialogue:_</ins>
 
 A: That's where the next issue waits: due to the monetary dependence on the US government, political decisions, can have a rapid impact on the availability of such centralized services.
 
@@ -571,13 +583,14 @@ C: Oh, yes, I do see a certain risk here... Perhaps we should also become a litt
 
 ---
 
-<figure>
+<p>
+  <figure>
     <img src="images/enisa.png" alt="ENISA Website" width="1000" height="auto">
     <figcaption><a href="https://euvd.enisa.europa.eu/">https://euvd.enisa.europa.eu/</a></figcaption>
-</figure>
-<br/>
+  </figure>
+</p>
 
-Dialog:
+<ins>_Dialogue:_</ins>
 
 A: Yes, ENISA is already working on it and has recently launched the beta version of its own platform. This means, though, that we are moving away from the current "single source of truth", which was the MITRE database, towards a more fragmented space.
 
@@ -597,13 +610,14 @@ C: "Test the issues, test the issues"... That effort is gonna delay our time-to-
 
 ---
 
-<figure>
+<p>
+  <figure>
     <img src="images/anatomy_of_vex.webp" width="1000" height="auto">
     <figcaption><a href="https://blog.adolus.com/a-deeper-dive-into-vex-documents">Adolus: A Deeper Dive into VEX Documents</a></figcaption>
-</figure>
-<br/>
+  </figure>
+</p>
 
-Dialog:
+<ins>_Dialogue:_</ins>
 
 A: Yes, that also already exists. That's the so-called “Vulnerability Exploitability eXchange”, short "VEX".
 
@@ -644,7 +658,7 @@ A: Yes, with both SBOMs and VEX documents, we have to trust that the authors wor
 
 ## _Conclusio_
 
-Dialog:
+<ins>_Dialogue:_</ins>
 
 C: So with all the shortcomings, the huge efforts and expenses associated... Is it even worth investing in SBOMs?
 
@@ -652,7 +666,7 @@ C: So with all the shortcomings, the huge efforts and expenses associated... Is 
 
 <img src="images/not-the-silver-bullet.jpg" alt="Not the Silver Bullet you're looking for" width="1000" height="auto">
 
-Dialog:
+<ins>_Dialogue:_</ins>
 
 A: SBOMs _can_ offer an added value, they are simply not the silver bullet that many are hoping for.
 
@@ -669,7 +683,7 @@ C: But why do we need them, after all?
 | FDA                      | Medical Devices                  |
 | UNECE R 155 WP.29        | Automotive (self-driving cars)   |
 
-Dialog:
+<ins>_Dialogue:_</ins>
 
 A: Simply because they are directly or indirectly reflected in some new cybersecurity regulations.
 
@@ -679,7 +693,7 @@ C: So, in our context we have to create them anyways?
 
 <img src="images/regulatory-requirements.jpg" alt="Regulatory Requirements" width="600" height="auto">
 
-Dialog:
+<ins>_Dialogue:_</ins>
 
 A: Yes, but let's not think of it as a compliance checkbox. If we need to do them anyways, let's do something useful with it.
 
@@ -695,7 +709,7 @@ A: Well, the software composition analysis searches the application for external
 
 <img src="images/dependency-track.png" alt="Screenshot of Dependency Track" width="1000" height="auto">
 
-Dialog:
+<ins>_Dialogue:_</ins>
 
 C: Cool! Consider it bought!
 
@@ -711,7 +725,7 @@ C: But what is this supposed to achieve in concrete terms?
 
 <img src="images/99-bugs-in-the-code.jpg" alt="99 Bugs in Code" width="1000" height="auto">
 
-Dialog:
+<ins>_Dialogue:_</ins>
 
 A: The inventory creates the data basis for assessing the quality of the software and the associated operational risks. Simply having the metadata lying around does us no good, but this transparency enables us to prioritize what the development teams need to patch and where they need to do some rework.
 
@@ -723,13 +737,14 @@ C: Not at all, I hope!
 
 ---
 
-<figure>
+<p>
+  <figure>
     <img src="images/log4j.png" alt="Downloaded versions of log4j" width="1000" height="auto">
     <figcaption><a href="https://www.sonatype.com/state-of-the-software-supply-chain/2024/risk">Sonatype: 2024 State of the Supply Chain</a></figcaption>
-</figure>
-<br/>
+  </figure>
+</p>
 
-Dialog:
+<ins>_Dialogue:_</ins>
 
 A: Far off! It is still frequently downloaded and baked into software! That's why we need to raise awareness among developers for the responsible and reasonable use of dependencies.
 
@@ -741,13 +756,14 @@ C: And how can you recognize this? Is there anything we can use out of the box?
 
 ---
 
-<figure>
+<p>
+  <figure>
     <img src="images/openssf.png" alt="Example OpenSSF Scorecard Report" width="800" height="auto">
     <figcaption>Example OpenSSF Scorecard Report; see <a href="https://scorecard.dev/">https://scorecard.dev/</a></figcaption>
-</figure>
-<br/>
+  </figure>
+</p>
 
-Dialog:
+<ins>_Dialogue:_</ins>
 
 A: For open source, for example, there is the OpenSSF scorecard for evaluating projects, which can be integrated directly into the pipelines to provide developers with a useful, automated assessment report of the project in question.
 
@@ -766,7 +782,7 @@ Track Your Dependencies!
   - Define Quality Criteria
 - Patch Your Vulnerabilities
 
-Dialog:
+<ins>_Dialogue:_</ins>
 
 A: SBOMs are one possible artifact to represent the ingredients list of software. Ultimately, it is just a format in which certain information is stored and exchanged. Coupled with a proper software composition analysis, this allows us to make statements about quality and risks of a certain piece of software.
 
@@ -790,7 +806,7 @@ C: Yes, hello Hermann! Yes, yes, I know Supply Chain Attacks. We are currently i
 
 <img src="images/the-end.jpg" alt="The End" width="1000" height="auto">
 
-Dialog:
+<ins>_Dialogue:_</ins>
 
 A: ...I quit
 
@@ -808,7 +824,7 @@ SBOM available <!-- .element class="smaller-text" -->[here](https://github.com/s
 
 <img src="images/nevermind.webp"  alt="Nevermind" width="1000" height="auto">
 
-Dialog:
+<ins>_Dialogue:_</ins>
 
 Somebody will definitely ask about AI...
 
@@ -818,6 +834,6 @@ Somebody will definitely ask about AI...
 <div class="smaller-text"><a href="https://github.com/something-appsec/sbom-talk">SBOMs - A Tragicomedy in Three Acts</a><br/>© 2025 by Jasmin Mair, Lukas Mika<br/>is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></div>
 
 <br/>
-Dialog:
+<ins>_Dialogue:_</ins>
 
 This talk is available in its entirety, including script and slides, under Creative Commons license on our Github repository. Including the SBOM.
