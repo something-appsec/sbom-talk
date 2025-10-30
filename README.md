@@ -33,13 +33,14 @@ Any resemblance to real persons, living or dead,
 is purely coincidental.
 
 ---
+<p>
+  <img src="images/no-cisos-harmed.png" alt="No CISOs were harmed Logo" width="1000" height="auto">
 
-<img src="images/no-cisos-harmed.png" alt="No CISOs were harmed Logo" width="1000" height="auto">
-
-<div style="font-family: serif; font-size: 0.8em">
-No CISOs were harmed <br/>
-in the making of this presentation
-</div>
+  <div style="font-family: serif; font-size: 0.8em">
+    No CISOs were harmed <br/>
+    in the making of this presentation
+  </div>
+</p>
 
 <ins>_Dialogue:_</ins>
 
@@ -823,20 +824,26 @@ Slides and Content available at<br/>https://github.com/something-appsec/sbom-tal
 
 SBOM available <!-- .element class="smaller-text" -->[here](https://github.com/something-appsec/sbom-talk/dependency-graph/sbom) 
 
----
+>>>
 
 <img src="images/nevermind.webp"  alt="Nevermind" width="1000" height="auto">
 
 <ins>_Dialogue:_</ins>
 
-Somebody will definitely ask about AI...
+Somebody will certainly ask about AI...
 
 ---
 
-<img src="images/cc.svg" style="width: 5em; height: auto; margin-left: .5em"><img src="images/by.svg" style="width: 5em; height: auto; margin-left: .5em"><img src="images/sa.svg" style="width: 5em; height: auto; margin-left: .5em;"><br/>
-<div class="smaller-text"><a href="https://github.com/something-appsec/sbom-talk">SBOMs - A Tragicomedy in Three Acts</a><br/>© 2025 by Jasmin Mair, Lukas Mika<br/>is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></div>
+<p>
+  <img src="images/cc.svg" style="width: 5em; height: auto; margin-left: .5em"><img src="images/by.svg" style="width: 5em; height: auto; margin-left: .5em"><img src="images/sa.svg" style="width: 5em; height: auto; margin-left: .5em;"><br/>
+  
+  <div class="smaller-text">
+    <a href="https://github.com/something-appsec/sbom-talk">SBOMs - A Tragicomedy in Three Acts</a><br/>
+    © 2025 by Jasmin Mair, Lukas Mika<br/>
+    is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
+  </div>
+</p>
 
-<br/>
 <ins>_Dialogue:_</ins>
 
 This talk is available in its entirety, including script and slides, under Creative Commons license on our Github repository. Including the SBOM.
