@@ -824,13 +824,13 @@ Slides and Content available at<br/>https://github.com/something-appsec/sbom-tal
 
 SBOM available <!-- .element class="smaller-text" -->[here](https://github.com/something-appsec/sbom-talk/dependency-graph/sbom) 
 
----
+>>>
 
 <img src="images/nevermind.webp"  alt="Nevermind" width="1000" height="auto">
 
 <ins>_Dialogue:_</ins>
 
-Somebody will definitely ask about AI...
+Somebody will certainly ask about AI...
 
 ---
 
