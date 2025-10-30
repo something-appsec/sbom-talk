@@ -5,6 +5,9 @@
 > This is the [reveal.js](https://revealjs.com/) slide deck for the talk **"SBOMs - A Tragicomedy in Three Acts"** by Jasmin Mair and Lukas Mika.
 > 
 > The rendered presentation is available **[here](https://something-appsec.github.io/sbom-talk/)**.
+>
+> The presentation material is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).<br/>
+> For information about the license for reveal.js, please refer to the [LICENSE](LICENSE) file.
 
 ---
 
