@@ -33,6 +33,7 @@ Any resemblance to real persons, living or dead,
 is purely coincidental.
 
 ---
+
 <p>
   <img src="images/no-cisos-harmed.png" alt="No CISOs were harmed Logo" width="1000" height="auto">
 

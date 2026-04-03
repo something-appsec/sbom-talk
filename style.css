@@ -1,3 +1,7 @@
+@import 'reveal.js/reset.css';
+@import 'reveal.js/reveal.css';
+@import 'reveal.js/theme/black.css';
+
 figcaption {
   font-size: small;
   line-height: 0;

@@ -1,0 +1,30 @@
+{
+  "name": "sbom-talk",
+  "version": "1.0.0",
+  "description": "SBOMs - A Tragycomedy in Three Acts",
+  "keywords": [
+    "sbom",
+    "presentation",
+    "reveal.js"
+  ],
+  "homepage": "https://something-appsec.github.io/sbom-talk/",
+  "bugs": {
+    "url": "https://github.com/something-appsec/sbom-talk/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/something-appsec/sbom-talk.git"
+  },
+  "license": "CC-BY-SA-4.0",
+  "author": "Jasmin Mair, Lukas Mika",
+  "type": "module",
+  "scripts": {
+    "dev": "vite"
+  },
+  "dependencies": {
+    "reveal.js": "^6.0.0"
+  },
+  "devDependencies": {
+    "vite": "^8.0.3"
+  }
+}
