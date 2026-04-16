@@ -9,5 +9,3 @@ log/*.log
 tmp/**
 node_modules/
 .sass-cache
-package.json
-package-lock.json

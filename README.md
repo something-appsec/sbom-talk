@@ -2,12 +2,11 @@
 [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/something-appsec/sbom-talk/badge)](https://scorecard.dev/viewer/?uri=github.com/something-appsec/sbom-talk)
 
 > [!NOTE]
-> This is the [reveal.js](https://revealjs.com/) slide deck for the talk **"SBOMs - A Tragicomedy in Three Acts"** by Jasmin Mair and Lukas Mika.
+> This is the slide deck for the talk **"SBOMs - A Tragicomedy in Three Acts"** by Jasmin Mair and Lukas Mika.
 > 
 > The rendered presentation is available **[here](https://something-appsec.github.io/sbom-talk/)**.
 >
 > The presentation material is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).<br/>
-> For information about the license for reveal.js, please refer to the [LICENSE](LICENSE) file.
 
 ---
 
@@ -33,6 +32,7 @@ Any resemblance to real persons, living or dead,
 is purely coincidental.
 
 ---
+
 <p>
   <img src="images/no-cisos-harmed.png" alt="No CISOs were harmed Logo" width="1000" height="auto">
 
