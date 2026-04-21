@@ -25,6 +25,6 @@
     "reveal.js": "^6.0.0"
   },
   "devDependencies": {
-    "vite": "^8.0.3"
+    "vite": "^8.0.9"
   }
 }
