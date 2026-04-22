@@ -1,6 +1,6 @@
-@import 'node_modules/reveal.js/css/reset.css';
-@import 'node_modules/reveal.js/css/reveal.scss';
-@import 'node_modules/reveal.js/css/theme/black.scss';
+@import './node_modules/reveal.js/dist/reset.css';
+@import './node_modules/reveal.js/dist/reveal.css';
+@import './node_modules/reveal.js/dist/theme/black.css';
 
 figcaption {
   font-size: small;
